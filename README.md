@@ -6,7 +6,7 @@ This lab demonstrates a full **network and Active Directory environment** with:
 - Windows Server 2022 as Domain Controller with AD, DNS, DHCP, GPO, shared drives, and NPS (RADIUS)  
 - Windows 10 domain-joined client with folder redirection, mapped drives, and VPN connectivity  
 
-> All IPs, domain names, and hostnames are placeholders for security.
+> NOTE! All IPs, domain names, and hostnames are placeholders for security.
 
 ## Table of Contents
 1. [Lab Overview](#lab-overview)
