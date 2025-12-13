@@ -26,4 +26,4 @@ This lab demonstrates a full **network and Active Directory environment** with:
 
 
 ## Network Diagram
-![Network Diagram](diagrams/network-diagram.png)
+![Network Diagram](main/diagrams/Network%20Diagram.png)
