@@ -24,3 +24,6 @@ This lab demonstrates a full **network and Active Directory environment** with:
 | Domain Controller   | DC01         | 192.168.10.10  | AD DS, DNS, DHCP, GPO, Shared Drives, NPS |
 | Windows 10 Client   | WIN10-CL01   | DHCP           | Domain-joined, mapped drives, VPN    |
 
+
+## Network Diagram
+![Network Diagram](diagrams/network-diagram.png)
