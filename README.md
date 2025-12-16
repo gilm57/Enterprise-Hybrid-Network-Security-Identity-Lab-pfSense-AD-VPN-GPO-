@@ -40,3 +40,28 @@ pfSense is deployed as the primary firewall and router in this lab environment. 
 - Internet access via NAT
 > NOTE! All IPs, domain names, and hostnames are placeholders for security.
 
+## Interfaces & VLANs
+
+**Description:**  
+The following VLAN and LANs are configured for network segmentation:
+
+| Name       | Type | Subnet           | Purpose           |
+|------------|------|-----------------|-----------------|
+| LANHR      | LAN  | 192.168.10.0/24 | HR Department   |
+| LANFINANCE | LAN  | 192.168.20.0/24 | Finance Dept    |
+| ITVLAN     | VLAN | 192.168.30.0/24 | IT Department   |
+
+- pfSense LAN IPs:  
+  - LANHR: 192.168.10.1  
+  - LANFINANCE: 192.168.20.1  
+  - ITVLAN: 192.168.30.1
+ 
+
+**Screenshots:**
+- Interfaces Overview:  
+![Interfaces Overview](screenshots/interfaces_overview.png)
+- VLAN & LAN Configuration:  
+![VLAN Config](screenshots/vlan_config.png)
+
+
+
