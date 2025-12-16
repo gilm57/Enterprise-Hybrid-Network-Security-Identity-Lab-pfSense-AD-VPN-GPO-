@@ -59,9 +59,9 @@ The following VLAN and LANs are configured for network segmentation:
 
 **Screenshots:**
 - Interfaces Overview:  
-![Interfaces Overview](screenshots/interfaces_overview.png)
+![Interfaces Overview](screenshots/pfsense%20Interface.png)
 - VLAN & LAN Configuration:  
-![VLAN Config](screenshots/vlan_config.png)
+![VLAN Config](screenshots/IT-VLAN.png)
 
 
 
