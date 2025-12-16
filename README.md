@@ -27,3 +27,15 @@ This lab demonstrates a full **network and Active Directory environment** with:
 
 ## Network Diagram
 ![Network Diagram](diagrams/Network%20Diagram.png)
+
+# pfSense Configuration
+
+## Overview
+pfSense is deployed as the primary firewall and router in this lab environment. It handles VLAN segmentation, DHCP relay, VPN connectivity, and firewall rules to control traffic between subnets and the Internet.
+
+**Lab Role:**
+- LAN gateway for Windows Server and Windows 10 clients
+- Inter-LAN/VLAN routing
+- VPN server for remote access
+- Internet access via NAT
+
