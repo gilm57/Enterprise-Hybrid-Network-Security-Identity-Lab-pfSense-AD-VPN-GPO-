@@ -82,3 +82,14 @@ Firewall rules control traffic between LANs/VLANs, the Internet, and VPN clients
 - OpenVPN Rules:
 - ![OpenVPN Rules](screenshots/OpenVPN%20Rules.png)
 
+  ## DHCP & DHCP Relay
+
+**Description:**  
+pfSense handles DHCP for each LAN/VLAN or relays requests to the Windows Server DHCP where applicable.
+
+**Screenshots:**
+- DHCP Server for LANHR:  
+![DHCP LANHR](screenshots/LANHR%20DHCP.png)
+- DHCP Relay Configuration:  
+![DHCP Relay](screenshots/ITVLAN%20DHCP%20Relay.png)
+
