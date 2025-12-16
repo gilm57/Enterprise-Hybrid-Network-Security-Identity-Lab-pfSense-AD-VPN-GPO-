@@ -74,4 +74,11 @@ Firewall rules control traffic between LANs/VLANs, the Internet, and VPN clients
 - **ITVLAN → DC:** Full access for IT management tasks  
 - **VPN → LANs:** Access restricted based on AD security groups
 
+**Screenshots:**
+- ITVLAN Rules:  
+![ITVLAN Rules](screenshots/ITVLAN-Rules.png)
+- LANHR Rules:  
+![LANHR Rules](screenshots/LANHR_rules.png)
+- OpenVPN Rules:
+- ![OpenVPN Rules](screenshots/OpenVPN%20Rules.png)
 
