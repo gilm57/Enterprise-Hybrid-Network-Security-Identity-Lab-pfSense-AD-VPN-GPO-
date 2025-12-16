@@ -64,4 +64,14 @@ The following VLAN and LANs are configured for network segmentation:
 ![VLAN Config](screenshots/IT-VLAN.png)
 
 
+## Firewall Rules
+
+**Description:**  
+Firewall rules control traffic between LANs/VLANs, the Internet, and VPN clients. Key rules include:
+
+- **LANHR → DC:** Allow DNS & LDAP for domain authentication  
+- **LANFINANCE → DC:** Allow necessary domain services  
+- **ITVLAN → DC:** Full access for IT management tasks  
+- **VPN → LANs:** Access restricted based on AD security groups
+
 
