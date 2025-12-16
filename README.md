@@ -38,4 +38,5 @@ pfSense is deployed as the primary firewall and router in this lab environment. 
 - Inter-LAN/VLAN routing
 - VPN server for remote access
 - Internet access via NAT
+> NOTE! All IPs, domain names, and hostnames are placeholders for security.
 
