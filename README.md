@@ -101,19 +101,19 @@ OpenVPN is installed and configured on pfSense to provide secure remote access t
 
 **Screenshots:**  
 - OpenVPN Server Configuration:  
-![OpenVPN Server](screenshots/OpenVPN/OpenVPN%20Server.png)  
+![OpenVPN Server](screenshots/OpenVPN%20Server.png)  
 
 - Certificate Authority & User Certificates:  
 ![OpenVPN Certificates](screenshots/OpenVPN/OpenVPN-Certificates.png)  
 
 - LDAP Authentication Server:  
-![LDAP Server](screenshots/OpenVPN/LDAP%20Authentication%20Server.png)  
+![LDAP Server](screenshots/LDAP%20Authentication%20Server.png)  
 
 - OpenVPN Client Export (Inline Config – Most Clients):  
-![Client Export](screenshots/OpenVPN/Client%20Export.png)  
+![Client Export](screenshots/Client%20Export.png)  
 
 - OpenVPN Firewall Rules:  
-![OpenVPN Rules](screenshots/OpenVPN/OpenVPN%20Rules.png)  
+![OpenVPN Rules](screenshots/OpenVPN%20Rules.png)  
 
 - Windows 10 installed VPN:  
 ![VPN installed](screenshots/Windows%2010%20VPN.png)
