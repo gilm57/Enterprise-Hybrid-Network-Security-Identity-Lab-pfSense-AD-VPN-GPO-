@@ -137,3 +137,24 @@ Windows Server 2022 is deployed as the **Domain Controller** for the lab environ
 | Security Groups | Created for VPN access and folder permissions |
 
 
+**Screenshots:**  
+- Active Directory Users & Computers:  
+![AD Users](screenshots/WindowsServer/AD-Users_PC.png)  
+
+- Organizational Units (HR, Finance, IT):  
+![OUs](screenshots/WindowsServer/Organizational%20Units.png)  
+
+- DHCP Configuration per OU/Subnet:  
+![DHCP Config](screenshots/DHCP%20Configuration.png)  
+
+- DNS Forward & Reverse Lookup Zones:  
+![DNS Zones](screenshots/DNS%20Forward%20%26%20Reverse.png)  
+
+- Shared Drives & Permissions:  
+![Shared Drives](screenshots/Shared%20Drives.png)  
+
+- Group Policy: Folder Redirection & Password Policies:  
+![GPO](screenshots/Group%20Policy.png)  
+
+- Security Groups for VPN and Folder Access:  
+![Security Groups](screenshots/SG%20VPN%20and%20Folder.png)
