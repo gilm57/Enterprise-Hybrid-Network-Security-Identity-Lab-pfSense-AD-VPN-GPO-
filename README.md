@@ -115,7 +115,7 @@ OpenVPN is installed and configured on pfSense to provide secure remote access t
 - OpenVPN Firewall Rules:  
 ![OpenVPN Rules](screenshots/OpenVPN/OpenVPN%20Rules.png)  
 
-- Windows 10 VPN Connected:  
-![VPN Connected](screenshots/OpenVPN/Windows%2010%20VPN.png)
+- Windows 10 installed VPN:  
+![VPN installed](screenshots/Windows%2010%20VPN.png)
 
 
