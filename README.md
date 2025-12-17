@@ -93,3 +93,34 @@ pfSense handles DHCP for each LAN/VLAN or relays requests to the Windows Server 
 - DHCP Relay Configuration:  
 ![DHCP Relay](screenshots/ITVLAN%20DHCP%20Relay.png)
 
+
+OpenVPN Remote Access
+
+Description:
+OpenVPN is installed and configured on pfSense to provide secure remote access to internal LANs/VLANs. Authentication uses Active Directory via LDAP and certificate-based authentication. Some clients may experience connectivity issues due to firewall, routing, or LDAP settings.
+
+Screenshots:
+
+OpenVPN Server Configuration:
+screenshots/OpenVPN/OpenVPN-Server.png
+
+
+Certificate Authority & User Certificates:
+screenshots/OpenVPN/OpenVPN-Certificates.png
+
+
+LDAP Authentication Server:
+screenshots/OpenVPN/OpenVPN-LDAP.png
+
+
+OpenVPN Client Export (Inline Config – Most Clients):
+screenshots/OpenVPN/OpenVPN-Client-Export.png
+
+
+OpenVPN Firewall Rules:
+screenshots/OpenVPN/OpenVPN-Rules.png
+
+
+Windows 10 VPN Connected:
+screenshots/OpenVPN/OpenVPN-Connected.png
+
