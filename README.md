@@ -119,3 +119,21 @@ OpenVPN is installed and configured on pfSense to provide secure remote access t
 ![VPN installed](screenshots/Windows%2010%20VPN.png)
 
 
+## Windows Server Setup
+
+**Description:**  
+Windows Server 2022 is deployed as the **Domain Controller** for the lab environment. It handles **Active Directory, DNS, DHCP, Group Policy, Shared Drives, and NPS/RADIUS for VPN**. The server is integrated with pfSense as the LAN gateway and manages network services for all VLANs.
+
+**Configuration Details:**
+
+| Service / Feature          | Description |
+|----------------------------|------------|
+| Active Directory Domain Services (AD DS) | Created domain and organized users into 3 OUs: HR, Finance, IT |
+| DNS | Forward and Reverse Lookup Zones configured for the lab domain |
+| DHCP | Configured per OU/subnet, with pfSense DHCP relay enabled where needed |
+| Shared Drives | Created departmental shares with `$` hidden option |
+| Group Policy Objects (GPO) | Folder redirection, password policies, account lockout policies |
+| NPS / RADIUS | Configured for OpenVPN LDAP authentication |
+| Security Groups | Created for VPN access and folder permissions |
+
+
