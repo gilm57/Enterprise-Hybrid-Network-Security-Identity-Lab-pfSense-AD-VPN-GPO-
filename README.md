@@ -94,33 +94,28 @@ pfSense handles DHCP for each LAN/VLAN or relays requests to the Windows Server 
 ![DHCP Relay](screenshots/ITVLAN%20DHCP%20Relay.png)
 
 
-OpenVPN Remote Access
+## OpenVPN Remote Access
 
-Description:
-OpenVPN is installed and configured on pfSense to provide secure remote access to internal LANs/VLANs. Authentication uses Active Directory via LDAP and certificate-based authentication. Some clients may experience connectivity issues due to firewall, routing, or LDAP settings.
+**Description:**  
+OpenVPN is installed and configured on pfSense to provide secure remote access to internal LANs/VLANs. Authentication uses **Active Directory via LDAP** and **certificate-based authentication**. Some clients may experience connectivity issues due to firewall, routing, or LDAP settings.
 
-Screenshots:
+**Screenshots:**  
+- OpenVPN Server Configuration:  
+![OpenVPN Server](screenshots/OpenVPN/OpenVPN%20Server.png)  
 
-OpenVPN Server Configuration:
-screenshots/OpenVPN/OpenVPN-Server.png
+- Certificate Authority & User Certificates:  
+![OpenVPN Certificates](screenshots/OpenVPN/OpenVPN-Certificates.png)  
 
+- LDAP Authentication Server:  
+![LDAP Server](screenshots/OpenVPN/LDAP%20Authentication%20Server.png)  
 
-Certificate Authority & User Certificates:
-screenshots/OpenVPN/OpenVPN-Certificates.png
+- OpenVPN Client Export (Inline Config – Most Clients):  
+![Client Export](screenshots/OpenVPN/Client%20Export.png)  
 
+- OpenVPN Firewall Rules:  
+![OpenVPN Rules](screenshots/OpenVPN/OpenVPN%20Rules.png)  
 
-LDAP Authentication Server:
-screenshots/OpenVPN/OpenVPN-LDAP.png
+- Windows 10 VPN Connected:  
+![VPN Connected](screenshots/OpenVPN/Windows%2010%20VPN.png)
 
-
-OpenVPN Client Export (Inline Config – Most Clients):
-screenshots/OpenVPN/OpenVPN-Client-Export.png
-
-
-OpenVPN Firewall Rules:
-screenshots/OpenVPN/OpenVPN-Rules.png
-
-
-Windows 10 VPN Connected:
-screenshots/OpenVPN/OpenVPN-Connected.png
 
