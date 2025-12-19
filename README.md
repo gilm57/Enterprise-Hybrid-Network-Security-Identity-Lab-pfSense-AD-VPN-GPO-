@@ -158,3 +158,29 @@ Windows Server 2022 is deployed as the **Domain Controller** for the lab environ
 
 - Security Groups for VPN and Folder Access:  
 ![Security Groups](screenshots/SG%20VPN%20and%20Folder.png)
+
+
+## Windows 10 Client Setup
+
+**Description:**  
+Windows 10 clients are domain-joined and configured to access network resources. Each client is part of the appropriate OU (HR, Finance, or IT) and inherits Group Policy settings from the server. Key features configured include:
+
+- Domain join with AD authentication  
+- Folder redirection and mapped network drives via Group Policy  
+- VPN connectivity to pfSense OpenVPN server using AD credentials  
+- Local PC renaming according to lab naming convention
+
+### Domain Join Confirmation
+![Windows 10 Domain Join](screenshots/Domain%20joined.png)
+
+### Domain User Login
+![Domain User Login](screenshots/Domain%20User%20Login.png)
+
+### Folder Redirection
+![Folder Redirection](screenshots/Folder%20Redirection.png)
+
+### Mapped Network Drives
+![Mapped Network Drives](screenshots/Network%20shared%20drive.png)
+
+### OpenVPN Connection
+![OpenVPN Connected](screenshots/OpenVPN%20win10.png)
