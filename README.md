@@ -139,10 +139,10 @@ Windows Server 2022 is deployed as the **Domain Controller** for the lab environ
 
 **Screenshots:**  
 - Active Directory Users & Computers:  
-![AD Users](screenshots/WindowsServer/AD-Users_PC.png)  
+![AD Users](screenshots/AD-Users_PC.png)  
 
 - Organizational Units (HR, Finance, IT):  
-![OUs](screenshots/WindowsServer/Organizational%20Units.png)  
+![OUs](screenshots/Organizational%20Units.png)  
 
 - DHCP Configuration per OU/Subnet:  
 ![DHCP Config](screenshots/DHCP%20Configuration.png)  
