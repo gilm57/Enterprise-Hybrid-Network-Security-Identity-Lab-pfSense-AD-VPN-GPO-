@@ -184,3 +184,12 @@ Windows 10 clients are domain-joined and configured to access network resources.
 
 ### OpenVPN Connection
 ![OpenVPN Connected](screenshots/OpenVPN%20win10.png)
+
+## Backup Scope
+
+- Backup type: Windows Server Backup (volume-level)
+- Included:
+  - System State (Active Directory, DNS, SYSVOL, GPO)
+  - OS volume (C:) containing file shares and redirected folders
+- Supports file-level and bare-metal recovery
+- Not a hypervisor-level VM image backup
