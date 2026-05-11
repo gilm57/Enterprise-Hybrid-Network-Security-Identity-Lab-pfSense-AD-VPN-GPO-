@@ -1,4 +1,4 @@
-# pfSense-Firewall-WindowsServer-Win10-Lab
+# Enterprise Hybrid Network Security & Identity Lab (pfSense + AD + VPN + GPO)
 
 This lab demonstrates a full **network and Active Directory environment** with:
 
